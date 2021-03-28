@@ -1,0 +1,145 @@
+/*Responsive Style*/
+
+/*Hover Images*/
+@media (max-width:1071px){
+    .center {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .hover-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .hover{
+        height: 352px;
+        width: 352px;
+    }
+    .section-2-p{
+        font-size: 30px;
+        width: 352px;
+    }
+}
+@media (max-width: 900px){
+    .box-wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .box {
+        margin-top: 30px;
+    }
+}
+@media (max-width: 780px){
+    .navigation{
+        display: none;
+    }
+    .strawberry-image{
+        display: block;
+    }
+    .footer-box{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .footer-div{
+        margin: 30px 0;
+    }
+}
+@media (max-width: 640px){
+    .px65{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+    .max-width-640{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .p2-font-size{
+        font-size: 20px;
+        text-align: center;
+    }
+}
+@media (max-width: 400px){
+    .p2-font-size{
+        width: 300px;
+        font-size: 20px;
+        text-align: center;
+    }
+    .section-2-p{
+        width: 300px;
+        font-size: 20px;
+        text-align: center;
+    }
+    .max-width-400{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .container-a {
+        font-size: 18px;
+        margin-left: 22px;
+    }
+    .Contact-p {
+        margin-top: 50px;
+        font-size: 18px;
+        text-align: center;
+    }
+    .text-2-div{
+        display: flex;
+        justify-content: center;
+    }
+    .text-p{
+        font-size: 16px;
+    }
+    .strawberry{
+        margin-top: 50px;
+    }
+    .footer-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+@media (max-width: 320px){
+    .input-div{
+        width: 300px;
+    }
+    .input-type{
+        width: 100%;
+    }
+    .media-3{
+        width: 300px;
+        font-size: 20px;
+        text-align: center;
+    }
+    .footer-h2{
+        font-size: 12px;
+    }
+    .links {
+        font-size: 10px;
+    }
+    .footer-box{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .media {
+        display: none;
+    }
+    .last-text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .last-text p {
+        width: 100%;
+        text-align: center;
+    }
+    .hover {
+        width: 300px;
+        height: 300px;
+    }
+}

@@ -1,0 +1,16 @@
+/*Fonts.css*/
+@font-face {
+    font-family: "Poppins";
+    src: url("../Fonts/Poppins-Black.ttf");
+    src: url("../Fonts/Poppins-BlackItalic.ttf") 
+    url("../Fonts/Poppins-Bold.ttf") 
+    url("../Fonts/Poppins-BoldItalic.ttf") 
+    url("../Fonts/Poppins-ExtraLightItalic.ttf")
+    url("../Fonts/Poppins-Medium.ttf")
+    url("../Fonts/Poppins-MediumItalic.ttf")
+    url("../Fonts/Poppins-Regular.ttf")
+    url("../Fonts/Poppins-SemiBold.ttf")
+    url("../Fonts/Poppins-SemiBoldItalic.ttf")
+    url("../Fonts/Poppins-Thin.ttf")
+    url("../Fonts/Poppins-ThinItalic.ttf")
+}
